@@ -4,8 +4,11 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-
-
+function myFunction() {
+  const element = document.getElementById("modal");
+  element.classList.add("hidden");
+}
+myFunction()
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
